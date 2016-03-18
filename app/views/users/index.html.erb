@@ -1,0 +1,34 @@
+<div class='container'>
+<a href="#add_user" class="btn-floating btn-large waves-effect waves-light red">Add</a>
+<br />
+<hr />
+
+<h2>All Users</h2>
+<table class='table highlight table-responsive'>
+  <thead>
+    <th>Name</th>
+    <th>Phone Number</th>
+    <th>Show</th>
+  </thead>
+  <tbody id='users'>
+  </tbody>
+</table>
+<br />
+<hr />
+<br />
+
+<h3 class='center'>Add A User</h3>
+
+  <form id='add_user' class='center'>
+    <label>Name</label>
+    <input placeholder='First Name' name='user[first_name]' require='true' />
+    <input placeholder='Last Name' name='user[last_name]' require='true' />
+    <input placeholder='Phone Number' name='user[phone_number]' type='number' />
+    <button class='btn btn-primary red' type='submit'>Submit</button>
+  </form>
+
+<br />
+<br />
+<br />
+
+</div>
